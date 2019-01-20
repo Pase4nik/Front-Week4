@@ -1,0 +1,253 @@
+html {
+  font-family: 'Pattaya', sans-serif;
+ 	background: linear-gradient(to top right, #7a77ff 20%, #a2a0ff 30%, #c5c4ff 50%, #efefff 75%) no-repeat center;
+ 	
+ 	font-size: 16px;
+}
+
+body {
+	background: linear-gradient(to top right, #7a77ff 20%, #a2a0ff 30%, #c5c4ff 50%, #efefff 75%) no-repeat center;
+}
+
+h1 {
+	font-family: Cambria;
+	font-size: 25px;
+	margin-left: calc(50% - 40px);
+}
+
+
+
+.container { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  } 
+
+
+.container > div {
+  padding: 1.5em;
+  margin: 5px auto;
+  border-radius: 3px;
+  border: 2px solid black;
+  overflow: hidden;
+  background-color: rgb(205, 205, 214, 0.5);
+}
+
+
+#task1 {
+	width: 30%;
+}
+
+ .task1bg {
+	background: url(../img/earth.gif) no-repeat center;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	height: 117px;
+	width: 117px;
+}
+
+#task2 {
+	width: 30%;
+}
+#task3 {
+	
+	width: 20%;
+}
+#task4 {
+	margin-left: 5px;
+	width: 60%;
+	
+}
+#task5 {
+	
+	width: 27%;
+	
+}
+
+#task6 {
+	
+	width: 27%;
+}
+#task7 {
+	
+	width: 15%;
+}
+#task8 {
+	
+	width: 15%;
+}
+
+#task9-10 {
+	padding: 0px 0px 0px 0px;
+  	margin: 5px auto;
+	border: none;
+  	opacity: 1;
+  	background: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+button {
+ 	position: relative;
+	display: inline-block;
+	color: #4835c4;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+	user-select: none;
+	padding: 1em 2em;
+	outline: none;
+	border-radius: 3px / 100%;
+	background-image:
+	   linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+	   linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+	   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+	   linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+	   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+	   linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+ 	background-repeat: no-repeat;
+ 	background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+ 	background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+ 	box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+button:hover {
+  transition: .5s linear;
+  background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+button:active {
+  top: 1px;
+}
+@media (max-width: 875px) {
+
+html {
+ 	
+	font-size: 12px;
+}
+h1 {
+	font-size: 20px
+}
+
+#task1 {
+	width: 40%;
+	
+	margin-right: 5px;
+}
+ .task1bg {
+ 	
+	background: url(../img/earth.gif) no-repeat center;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	height: 117px;
+	width: 117px;
+}
+
+#task2 {
+	width: 40%;
+	
+	margin-left: 5px; 
+}
+#task3 {
+	margin-right: 5px;
+	width: 40%;
+}
+#task4 {
+	margin-left: 5px;
+	width: 40%;
+
+}
+#task5 {
+	margin-right: 5px;
+	width: 40%;
+	
+}
+
+#task6 {
+	margin-left: 5px; 
+	width: 40%;
+}
+#task7 {
+	margin-right: 5px;
+	width: 40%;
+}
+#task8 {
+	margin-left: 5px; 
+	width: 40%;
+}
+
+}
+
+
+@media (max-width: 465px) {
+
+html {
+ 	font-size: 10px	
+}
+
+h1 {
+	font-size: 18px
+}
+
+#task1 {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+ .task1bg {
+ 	
+	background: url(../img/earth.gif) no-repeat center;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	height: 117px;
+	width: 117px;
+}
+
+#task2 {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+#task3 {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+#task4 {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+#task5 {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+#task6 {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+#task7 {
+	width: 100%;
+	margin: 0 auto;	
+}
+#task8 {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+	
+
+
+
+
+
+
